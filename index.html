@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Darts Referee Practice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="board-container">
+
+        <div class="scoreboard">
+            <div class="player" id="p1">
+                <h2>Player 1</h2>
+                <div class="score" id="score1">501</div>
+                <div class="visits" id="visits1"></div>
+                <div class="accuracy">Accuracy: <span id="acc1">100</span>%</div>
+            </div>
+
+            <div class="player" id="p2">
+                <h2>Player 2</h2>
+                <div class="score" id="score2">501</div>
+                <div class="visits" id="visits2"></div>
+                <div class="accuracy">Accuracy: <span id="acc2">100</span>%</div>
+            </div>
+        </div>
+
+        <div class="dartboard-container">
+            <svg id="dartboard" viewBox="-240 -240 480 480"></svg>
+        </div>
+
+    </div>
+
+    <div class="input-area" id="inputArea">
+        <button onclick="startGame()">Start Match</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

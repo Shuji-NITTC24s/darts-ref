@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    background: #0b0b0b;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.board-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.scoreboard {
+    display: flex;
+    gap: 40px;
+}
+
+.player {
+    background: #111;
+    padding: 20px;
+    border: 2px solid white;
+    width: 200px;
+}
+
+.score {
+    font-size: 50px;
+    margin: 10px 0;
+}
+
+.visits {
+    font-size: 18px;
+    min-height: 120px;
+    border-top: 1px solid #444;
+    padding-top: 10px;
+}
+
+.dartboard-container {
+    width: 450px;
+}
+
+#dartboard {
+    width: 450px;
+    height: 450px;
+    background: #222;
+    border-radius: 50%;
+}
+
+.input-area {
+    text-align: center;
+    margin-top: 20px;
+}
+
+input {
+    font-size: 22px;
+    padding: 6px;
+    width: 120px;
+    text-align: center;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+}
